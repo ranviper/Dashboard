@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/173960d92d.js" crossorigin="anonymous"></script>
+  <title>The Odin Project - Dashboard</title>
+</head>
+
+<body>
+  <!-- Dashboard Sidebar -->
+  <aside class="main-sidebar">
+    <h1><i class="fas fa-th" style="color: #ffffff;"></i> Dashboard</h1>
+    <nav class="navbar">
+      <br>
+      <a href="#" title="Home"><i class="fas fa-home" style="color: #ffffff;"></i> Home</a>
+      <a href="#" title="Profile"><i class="fa-regular fa-user"></i> Profile</a>
+      <a href="#" title="Messages"><i class="fa-regular fa-message"></i> Messages</a>
+      <a href="#" title="History"><i class="fas fa-history" style="color: #ffffff;"></i> History</a>
+      <a href="#" title="Tasks"><i class="fas fa-tasks-alt" style="color: #ffffff;"></i> Tasks</a>
+      <a href="#" title="Communities"><i class="fas fa-users-cog" style="color: #ffffff;"></i> Communities</a>
+      <br>
+      <br>
+      <br>
+      <a href="#" title="Settings"><i class="fas fa-wrench" style="color: #ffffff;"></i> Settings</a>
+      <a href="#" title="Support"><i class="fas fa-question-circle" style="color: #ffffff;"></i> Support</a>
+      <a href="#" title="Privacy"><i class="fas fa-user-secret" style="color: #ffffff;"></i> Privacy</a>
+    </nav>
+  </aside>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="search">
+        <form>
+          <!-- <label for="search-box">
+          <i class="fa-brands fa-searchengin"></i>
+          </label> -->
+          <input
+            type="search"
+            name="search-box"
+            id="search-box"
+            placeholder="Search..."
+            autocomplete="off"
+          />
+          <button type="submit">Go</button>
+        </form>
+      </div>
+
+    <!-- Greeting Section -->
+      <!-- <div class="greeting-section">
+        <div class="user-image">
+          <img src="UserLogo.png" alt="User Image" />
+        </div>
+        <div class="greeting-text">
+          <p>Hi there,</p> 
+          <p>Justin VanRiper (@ranviper)</p>
+        </div>
+      </div> -->
+    </div>
+
+        <!-- User Controls -->
+      <div class="user-controls">
+        <div class="user-info">
+          <div class="action-block" id="userInfo">
+            <a href="#" title="Notifications"><i class="fa-solid fa-bell"></i></a>
+            <a href="#" title="User Icon"><img src="UserLogo.png" alt=""></a>
+            <a href="#" title="User Name">Justin VanRiper</a>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="actions">
+          <button type="button">User</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
+        </div>
+      </div>
+      
+  </header>
+
+  <!-- Main content -->
+  <main class="content">
+    <h2>Your Projects</h2>
+    <section class="projects">
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 3</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 4</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 5</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="text-block">
+          <h4>Project 6</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laboriosam perferendis quos aspernatur non,
+            unde quaerat omnis ullam! Repellat libero, veniam est laborum alias qui dolor illo odio magni nemo!
+          </p>
+          <div class="action-block">
+            <a href="#" name="save"><i class="fa-solid fa-floppy-disk"></i></a>
+            <a href="#" name="delete"><i class="fa-solid fa-trash"></i></a>
+            <a href="#" name="share"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Announcements and Trending -->
+  <section class="announce-trends">
+    <aside class="announcements">
+      <h3>Announcements</h3>
+      <h4>Site maintenance</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam, magni consectetur quas hic sed
+        quisquam cumque illo vero maiores ratione at modi molestias veritatis aperiam dolores iste reprehenderit
+        reiciendis!
+      </p>
+      <h4>Reformation Day Celebration</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias placeat minima dolorum ratione qui,
+        repellendus beatae, illo delectus aliquam doloremque aspernatur sint consequatur culpa rerum fugit
+        doloribus nobis esse libero?
+      </p>
+      <h4>Updated policy on doctrine</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi praesentium animi delectus molestias odio
+        natus nam illo, libero unde fugit voluptates quod nesciunt, aspernatur architecto velit eius voluptatem,
+        provident veniam?
+      </p>
+    </aside>
+    <aside class="trending">
+      <h3>Trending</h3>
+      <h4>@Justin</h4>
+      <p>Psalm 110:1</p>
+      <h4>@Blake</h4>
+      <p>Let the reader understand</p>
+      <h4>@Lauren</h4>
+      <p>Homemaking 101</p>
+    </aside>
+  </section>
+</body>
+
+</html>
